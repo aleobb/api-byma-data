@@ -1,0 +1,4 @@
+/__pycache__*
+venv
+routes/__pycache__
+service/__pycache__
