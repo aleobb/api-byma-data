@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from constant import convertDataToObjectIntraday
+from constant import convertDataToObjectIntraday,convertDataMin
 from homebroker import HomeBroker
 
 load_dotenv()
@@ -15,7 +15,8 @@ def intraday_service(symbol):
         hb = HomeBroker(int(broker))
         hb.auth.login(dni=dni, user=user, password=password, raise_exception=True)
         data = hb.history.get_intraday_history(symbol, None, None)
-        message=convertDataToObjectIntraday(data,symbol)
+        msg=convertDataToObjectIntraday(data,symbol)
+        message=convertDataMin(msg)
         response={"status":"OK","message":message}
         print(response)
         return response
