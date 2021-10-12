@@ -73,8 +73,6 @@ python-secrets==21.2.0
 PyTweening==1.0.3
 pytz==2021.1
 pywhatkit==4.7
-pywin32==300
-pywin32-ctypes==0.2.0
 PyYAML==5.4.1
 pyzmq==22.0.3
 readme-renderer==29.0
