@@ -1,6 +1,6 @@
 # API-BYMA-DATA
 
-##GET-METHODS
+## [GET-METHODS]
 
 https://api-byma-data.herokuapp.com
 
