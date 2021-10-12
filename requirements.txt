@@ -13,8 +13,6 @@ Babel==2.9.1
 backcall==0.2.0
 Backtesting==0.3.1
 beautifulsoup4==4.9.3
-binance-futures==1.1.0
-binance.py==1.8.0
 bleach==3.3.0
 bokeh==2.3.1
 bs4==0.0.1

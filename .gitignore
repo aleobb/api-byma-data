@@ -1,4 +1,5 @@
 /__pycache__*
 venv
+.env
 routes/__pycache__
 service/__pycache__
