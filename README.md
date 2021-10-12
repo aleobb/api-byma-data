@@ -9,9 +9,9 @@ https://api-byma-data.herokuapp.com/byma/snapshot
 https://api-byma-data.herokuapp.com/byma/instrument/intraday
 
 ej
-{
+'''{
 "symbol":"PAMP"
-}
+}'''
 
 https://api-byma-data.herokuapp.com/byma/instrument/history
 
