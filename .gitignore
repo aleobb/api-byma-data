@@ -1,5 +1,6 @@
 /__pycache__*
 venv
 .env
+Procfile
 routes/__pycache__
 service/__pycache__
