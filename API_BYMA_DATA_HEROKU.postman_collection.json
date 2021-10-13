@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "9f449e20-d458-437f-9a6b-f4498c96f607",
+		"name": "API_BYMA_DATA_HEROKU",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api-byma-data.herokuapp.com/byma/snapshot",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-byma-data.herokuapp.com/byma/snapshot",
+					"protocol": "https",
+					"host": [
+						"api-byma-data",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"byma",
+						"snapshot"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api-byma-data.herokuapp.com/byma/instrument/intraday",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"symbol\":\"PAMP\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-byma-data.herokuapp.com/byma/instrument/intraday",
+					"protocol": "https",
+					"host": [
+						"api-byma-data",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"byma",
+						"instrument",
+						"intraday"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api-byma-data.herokuapp.com/byma/instrument/history",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"symbol\" : \"GGAL\", \r\n    \"date_from\" : \"2015-1-01\", \r\n    \"date_to\" : \"2021-10-06\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-byma-data.herokuapp.com/byma/instrument/history",
+					"protocol": "https",
+					"host": [
+						"api-byma-data",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"byma",
+						"instrument",
+						"history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api-byma-data.herokuapp.com/byma/instrument/quarter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"symbol\" : \"GGAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-byma-data.herokuapp.com/byma/instrument/quarter",
+					"protocol": "https",
+					"host": [
+						"api-byma-data",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"byma",
+						"instrument",
+						"quarter"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
