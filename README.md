@@ -4,8 +4,6 @@
 
 https://api-byma-data.herokuapp.com
 
-https://api-byma-data.herokuapp.com/byma/snapshot
-
 https://api-byma-data.herokuapp.com/byma/instrument/intraday
 ```
 {
